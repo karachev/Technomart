@@ -189,6 +189,43 @@ main {
 	.main-content {
 		font-family: "Cuprum", sans-serif;
 		margin-top: 60px;
+
+		h3 {
+			color: white;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 30px;
+		}
+
+		.btn {
+			color: white;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 18px;
+			text-transform: uppercase;
+			padding: 10px 24px;
+			text-decoration: none;
+			margin-left: 25px;
+			border-radius: 3px;
+		}
+
+		.item_yellow {
+			background-color: #f6b22d;
+
+			.btn {
+				background: #dd9f28;
+				margin-left: 25px;
+				padding: 10px 36px;
+			}
+		}
+
+		.item_green {
+			.btn {
+				background: #77bc6d;
+				padding: 11px 22px;
+			}
+		}
+
 		.main-content_row-1 {
 			.main-content-item {
 				width: 300px;
@@ -197,10 +234,6 @@ main {
 				margin-right: 19px;
 				position: relative;
 				h3 {
-					color: white;
-					font-size: 24px;
-					font-weight: 700;
-					line-height: 30px;
 					margin-top: 21px;
 					margin-left: 25px;
 					margin-bottom: 20px;
@@ -228,11 +261,6 @@ main {
 					text-decoration: none;
 					margin-left: 26px;
 					border-radius: 3px;
-				}
-
-				.btn-main-content {
-
-
 				}
 			}
 
@@ -271,8 +299,56 @@ main {
 					background: #b76cbb;
 				}
 			}
+		}
 
+		.main-content_row-2 {
+			margin-top: 20px;
+			.main-content-item:first-child {
+				float: left;
+				width: 620px;
+				height: 266px;
+				background: url(../img/slider-1.jpg);
+			}
 
+			.main-content-item:nth-child(2) {
+				float: right;
+				width: 300px;
+				min-height: 123px;
+				background-color: #85d179;
+				position: relative;
+				h3 {
+					margin-top: 21px;
+					margin-left: 23px;
+					margin-bottom: 22px;
+				}
+
+				.img__bg {
+					position: absolute;
+					top: 26px;
+					left: 196px;
+				}
+			}
+
+			.main-content-item:last-child {
+				float: right;
+				width: 300px;
+				min-height: 123px;
+				background-color: #f6b22d;
+				position: relative;
+				margin-top: 20px;
+
+				h3 {
+					margin-top: 21px;
+					margin-left: 23px;
+					margin-bottom: 21px;
+				}
+
+				.img__bg {
+					position: absolute;
+					top: 32px;
+					left: 191px;
+				}
+			}
 		}
 
 	}
